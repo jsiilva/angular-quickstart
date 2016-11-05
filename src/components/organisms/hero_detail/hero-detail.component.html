@@ -1,0 +1,4 @@
+<div *ngIf="hero">
+  <hero-detail [hero]='hero' (saved)="save($event);" ></hero-detail>
+  <button (click)="goBack()">Back</button>
+</div>
